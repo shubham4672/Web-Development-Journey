@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border-box includes content's padding and border */
+}
+header {
+  border: 2px solid wheat;
+  border-style: double;
+  height: 56px;
+  background-color: black;
+}
+header nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+header nav ul li {
+  color: white;
+  margin: 15px 266px;
+}
+.content {
+  background: red;
+  height: 100vh;
+}
+
+footer .copyright {
+  text-align: center;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML class Attribute</title>
+    <style>
+      .note {
+        font-size: 120%;
+        color: red;
+      }
+      .city {
+        background-color: tomato;
+        color: white;
+        padding: 10px;
+      }
+
+      .main {
+        text-align: center;
+      }
+      #myHeader {
+        background-color: lightblue;
+        color: black;
+        padding: 40px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- the class attribute is often used to point to a class name in a style sheet. Multiple HTML elements can share the same class. -->
+    <h1>My <span class="note">Important</span> Heading</h1>
+    <p>This is some <span class="note">important</span> text.</p>
+    <!-- JavaScript can access elements with a specific class name with the getElementsByClassName() method -->
+    <h2 class="city main">London</h2>
+    <h2 class="city">Paris</h2>
+    <h2 class="city">Tokyo</h2>
+
+    <!-- id attribute is used to specify a unique id for an HTML element. -->
+    <!-- id attribute is used to point to a specific style declaration in a style sheet. -->
+    <h1 id="myHeader">My Header</h1>
+    <!-- difference is that a class name can be used by multiple HTML elements, while an id name must only be used by one HTML element within the page -->
+  </body>
+</html>

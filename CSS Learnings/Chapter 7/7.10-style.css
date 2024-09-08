@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1900px) {
+  body {
+    background-color: red;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  body {
+    background-color: yellow;
+  }
+}

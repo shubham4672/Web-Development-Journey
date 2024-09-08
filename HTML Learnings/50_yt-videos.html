@@ -1,0 +1,28 @@
+<!-- Playing a YouTube Video in HTML
+To play your video on a web page, do the following:
+
+Upload the video to YouTube
+Take a note of the video id
+Define an <iframe> element in your web page
+Let the src attribute point to the video URL
+Use the width and height attributes to specify the dimension of the player
+Add any other parameters to the URL (see below) -->
+
+<!-- 
+    -> YouTube AutoPlay + Mute 
+        link?autoplay=1&mute=1
+    -> YouTube Loop
+        link?loop=1
+    -> YouTube Controls
+        add controls=0 to not display controls in the vid player
+        by default 1 (player controls display.)
+ -->
+<iframe
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/-LWbeZUyQe8?si=3Pa-SZ1R6VpjjFp6?autoplay=1&mute=1&loop=1&controls=0"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen
+></iframe>

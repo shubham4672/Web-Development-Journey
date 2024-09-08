@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Input Attributes</title>
+  </head>
+  <body>
+    <!-- The input value attribute specifies an initial value for an input field: -->
+
+    <!-- The input readonly attribute specifies that an input field is read-only. -->
+    <form>
+      <label for="fname">First name:</label><br />
+      <input type="text" id="fname" name="fname" value="John" readonly /><br />
+      <label for="lname">Last name:</label><br />
+      <input type="text" id="lname" name="lname" value="Doe" />
+    </form>
+    <!-- The input disabled attribute specifies that an input field should be disabled. (unusable and un-clickable) -->
+    <form>
+      <label for="fname">First name:</label><br />
+      <input type="text" id="fname" name="fname" value="John" disabled /><br />
+      <label for="lname">Last name:</label><br />
+      <input type="text" id="lname" name="lname" value="Doe" />
+    </form>
+    <!-- The input size attribute specifies the visible width, in characters, of an input field. The default value for size is 20. -->
+
+    <!-- The input maxlength attribute specifies the maximum number of characters allowed in an input field -->
+    <form>
+      <label for="fname">First name:</label><br />
+      <input type="text" id="fname" name="fname" size="50" /><br />
+      <label for="pin">PIN:</label><br />
+      <input type="text" id="pin" name="pin" maxlength="4" size="4" />
+    </form>
+    <!-- the multiple attribute: The input multiple attribute specifies that the user is allowed to enter more than one value in an input field. -->
+
+    <!-- The input placeholder attribute specifies a short hint that describes the expected value of an input field (a sample value or a short description of the expected format). -->
+    <form action="/action.php">
+      <label for="phone">Enter a phone number:</label>
+      <input
+        type="tel"
+        id="phone"
+        name="phone"
+        placeholder="123-45-678"
+        pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+      />
+    </form>
+
+    <!-- The input required attribute specifies that an input field must be filled out before submitting the form. -->
+
+    <!-- The input step attribute specifies the legal number intervals for an input field. -->
+
+    <!-- The input autofocus attribute specifies that an input field should automatically get focus when the page loads. -->
+
+    <!-- autofocus -->
+    <form>
+      <input list="browsers" />
+      <datalist id="browsers">
+        <option value="Edge"></option>
+        <option value="Firefox"></option>
+        <option value="Chrome"></option>
+        <option value="Opera"></option>
+        <option value="Safari"></option>
+      </datalist>
+    </form>
+  </body>
+</html>
+
+<!-- summary
+1. value attribute (initial value)
+2. readonly attribute (read only)
+3. disabled attribute (unusable and un-clickable)
+4. size attribute (visible width of an input field)
+5. maxlength attribute (maximum number of characters)
+6. min & max attributes (minimum and maximum values for an input field)
+7. mupliple attribute (user allowed to enter more than one value in an input field [email, file])
+8. pattern attribute (a regular expression that the input field's value is checked against, when the form is submitted [text, date, search, url, tel, email, password])
+9. placeholder attribute (describes the expected value of an input field [text, search, url, tel, email, password])
+10. required attribute (means that the input field must be filled [text, search, url, tel, email, password, date pickers, number, checkbox, radio, file])
+11. step attribute (specifies the legal number intervals for an input field [number, range, date, datetime-local, month, time, week])
+12. autofocus attribute (specifies that an input field automatically get focus when the page loads)
+13. height & width attributes (specify the height and width of an <input type="image"> element)
+14. list attribute (contains pre-defined options for an <input> element)
+15. autocomplete attribute (it predict the value, based on earlier typed values) -->

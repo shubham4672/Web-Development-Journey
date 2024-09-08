@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#first {
+  background-color: aqua;
+}
+
+.second {
+  background-color: powderblue;
+}
+
+.second h1 {
+  color: red;
+}
+
+.blue {
+  background-color: rgb(152, 152, 199);
+  color: white;
+  border: 1px solid black;
+  border-style: double;
+}
+/* Priority of inline CSS > internal CSS > External CSS */

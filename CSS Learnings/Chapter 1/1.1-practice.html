@@ -1,0 +1,40 @@
+<!-- A class name can be used by multiple HTML elements, while an id name must only be used by one HTML element within the page: -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chapter 1 Practice Set</title>
+    <style>
+      #head {
+        background-color: blueviolet;
+      }
+    </style>
+    <link rel="stylesheet" href="1.1-practice.css" />
+  </head>
+  <body>
+    <div class="red">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
+      quaerat vero maiores labore veritatis reprehenderit perferendis? Dicta
+      nam, nemo eveniet aliquid commodi quibusdam cumque sapiente autem sed
+      pariatur veniam minima temporibus? Amet, laudantium distinctio!
+    </div>
+    <div id="head" style="background-color: blue">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur
+      quidem iusto quae optio eius accusantium laudantium architecto, ipsam
+      deserunt, sit natus non repellat velit nam accusamus, necessitatibus
+      dolore ex quo eos! Recusandae, ullam quam.
+    </div>
+    <br /><br />
+    <div class="one">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum
+      similique obcaecati placeat beatae itaque rem delectus molestias a nisi
+      magnam deleniti, rerum iusto veritatis totam! Mollitia tempore modi
+      aperiam perferendis magni, temporibus praesentium!
+    </div>
+    <br />
+    <span class="one red">Hey There!</span>
+    <!-- can use multiple classes and one element which is written at the last will have the high priority -->
+    <!-- also can apply a same class on multiple elements -->
+  </body>
+</html>

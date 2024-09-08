@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("/CSS Learnings/Resources/photo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-position: top center; */
+  background-attachment: fixed;
+  height: 500vh;
+}
+.red {
+  background: red;
+  color: white;
+}
+.green {
+  background-color: greenyellow;
+  color: antiquewhite;
+}

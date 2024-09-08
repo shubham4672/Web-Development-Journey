@@ -1,0 +1,74 @@
+.border {
+  border: 1px solid rebeccapurple;
+  margin: 3px;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.bg-black {
+  background-color: #000;
+  color: #fff;
+}
+
+.invert {
+  filter: invert(1);
+}
+
+.bg-grey {
+  background-color: #121212;
+}
+
+.rounded {
+  border-radius: 7px;
+}
+
+.m-1 {
+  margin: 5px;
+}
+
+.p-1 {
+  padding: 10px;
+}
+
+.cursor-p {
+  cursor: pointer;
+}
+
+.cursor-na {
+  cursor: not-allowed;
+}
+
+/* For WebKit browsers */
+::-webkit-scrollbar {
+  width: 3px; /* Make the scrollbar extremely thin */
+}
+
+::-webkit-scrollbar-track {
+  background: transparent; /* Transparent background for the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #fff; /* Color of the scrollbar thumb - white */
+  border-radius: 10px; /* Rounded corners */
+  transition: background 0.3s ease; /* Smooth transition */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #e0e0e0; /* Slightly different color on hover for better UX */
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: thin; /* Make scrollbar thin */
+  scrollbar-color: #fff transparent; /* Thumb color - white, track color - transparent */
+}

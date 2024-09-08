@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flag {
+  width: 221px;
+  height: 114px;
+  display: inline-block;
+  margin: 251px 332px;
+}
+.box1 {
+  width: 221px;
+  border: 1px solid black;
+  height: 34px;
+  background-color: #fff;
+}
+.box2 {
+  width: 221px;
+  border: 1px solid black;
+  height: 34px;
+  background: red;
+}
+.box3 {
+  width: 221px;
+  height: 34px;
+  border: 1px solid black;
+  background-color: blue;
+}

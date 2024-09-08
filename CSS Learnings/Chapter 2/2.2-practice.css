@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+nav {
+  background: #000;
+  height: 30px;
+}
+nav ul {
+  display: flex;
+}
+nav ul a {
+  color: #fff;
+  list-style-type: none;
+  text-decoration: none;
+}
+nav ul a:hover {
+  color: bisque;
+}
+nav ul li {
+  margin: 5px 230px;
+}
+.container {
+  color: red;
+}
+
+.img {
+  background-image: url("/CSS Learnings/Resources/img.jpg");
+  width: 148px;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+}
+
+.box {
+  background: url("/CSS Learnings/Resources/lol.jpg") no-repeat fixed;
+  width: 230px;
+  height: 150vh;
+  color: pink;
+}

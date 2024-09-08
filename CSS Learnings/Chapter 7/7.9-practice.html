@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chapter 7 Practice Set</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .nav {
+        background-color: #000;
+        color: whitesmoke;
+      }
+      .nav ul {
+        display: grid;
+        grid-template-columns: 150px 150px 150px;
+        list-style-type: none;
+        justify-content: end;
+      }
+      .nav ul li {
+        padding: 16px 0px;
+      }
+      .cover-img {
+        width: 100vw;
+        height: 44vh;
+        background-image: url("/CSS Learnings/Resources/celebrations.png");
+        background-attachment: fixed;
+        background-size: cover;
+      }
+      .container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        height: 45vh;
+        justify-content: space-evenly;
+        align-items: last baseline;
+      }
+      .img1 {
+        width: 275px;
+        height: 300px;
+        background-image: url("/CSS Learnings/Resources/left.png");
+        background-size: contain;
+        border: 1px solid gold;
+        border-radius: 10px;
+      }
+      .img2 {
+        width: 501px;
+        height: 300px;
+        background-image: url("/CSS Learnings/Resources/middle.png");
+        background-size: contian;
+        background-repeat: no-repeat;
+        border: 1px solid gold;
+        border-radius: 10px;
+      }
+      .img3 {
+        width: 275px;
+        height: 300px;
+        background-image: url("/CSS Learnings/Resources/right.png");
+        background-size: cover;
+        border: 1px solid gold;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nav">
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
+    </div>
+    <div class="cover-img"></div>
+    <div class="container">
+      <div class="img1"></div>
+      <div class="img2"></div>
+      <div class="img3"></div>
+    </div>
+  </body>
+</html>

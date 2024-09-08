@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.box1 {
+  align-self: flex-end;
+  width: 145px;
+  height: 195px;
+  /* float: right; */
+  background: red;
+  border: 1px solid brown;
+  border-radius: 9px;
+  text-align: center;
+}
+
+.box2 {
+  width: 145px;
+  height: 195px;
+  background-color: green;
+  border: 1px solid brown;
+  border-radius: 9px;
+  text-align: center;
+}
+
+.box3 {
+  width: 145px;
+  height: 195px;
+  background-color: blue;
+  border: 1px solid brown;
+  border-radius: 9px;
+  text-align: center;
+}

@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Freehand&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: #000;
+  height: 63px;
+}
+
+.left {
+  background-color: green;
+  width: 49vw;
+  height: 91vh;
+  display: inline-block;
+  font-family: "Freehand", cursive;
+  font-weight: lighter;
+  text-transform: lowercase;
+}
+
+.right {
+  background: red;
+  font-weight: lighter;
+  font-family: "Freehand", cursive;
+  width: 50vw;
+  height: 91vh;
+  display: inline-block;
+}
+/* freehand is font family and cursive and generic family */

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Responsive web design</title>
+  </head>
+  <body>
+    <!-- Responsive web design is about creating web pages that look good on all devices!
+
+    A responsive web design will automatically adjust for different screen sizes and viewports. -->
+    <img src="img_girl.jpg" style="max-width: 100%; height: auto" />
+    <p>
+      "max-width:100%" prevents the image from getting bigger than its original
+      size. However, if you make the browser window smaller, the image will
+      still scale down.
+    </p>
+    <!--Show Different Images Depending on Browser Width-->
+    <picture>
+      <source srcset="img_girl" media="(max-width: 600px)" />
+    </picture>
+    <!-- Responsive Text Size -->
+    <h1 style="font-size: 10vw">Hello World</h1>
+    <!-- Media Queries -->
+  </body>
+</html>
+ml

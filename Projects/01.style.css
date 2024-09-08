@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  position: relative;
+  left: 18px;
+  bottom: 20px;
+}
+
+.cart {
+  position: relative;
+  top: 18px;
+  left: 328px;
+}
+
+.dior {
+  position: relative;
+  left: 103px;
+  bottom: 52px;
+}
+
+.dior img {
+  width: 175px;
+  height: 170px;
+}
+
+h3 {
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.description {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  background-color: #c88efe;
+}
+
+.container h1 {
+  text-align: center;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 38px;
+}
+
+.box {
+  width: 25vw;
+  height: 85vh;
+  background-color: #fff;
+  border-radius: 20px;
+  margin-left: 600px;
+  margin-right: 600px;
+  margin-top: 11px;
+  box-shadow: 4px 4px 114px 5px rgb(68, 68, 68);
+}
+
+p {
+  text-align: center;
+}
+
+.stars {
+  position: relative;
+  left: 18px;
+}
+
+.price {
+  font-size: x-large;
+  font-family: sans system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-align: center;
+}
+
+.addtocart {
+  width: 300px;
+  height: 45px;
+  border-radius: 20px;
+  background-color: #c88efe;
+  margin: auto;
+}
+
+.addtocart:hover {
+  scale: 1.1;
+  cursor: pointer;
+}
+
+#add {
+  text-align: center;
+  font-size: 25px;
+  color: #fff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+/* 
+@media screen and (min-width: 1895px) {
+  h1 {
+    text-align: center;
+  }
+  .container {
+    height: 100vh;
+  }
+  .box {
+    position: relative;
+    top: 25px;
+    height: 78vh;
+    margin-left: 720px;
+  }
+  .cart {
+    position: relative;
+    left: 419px;
+    top: 32px;
+  }
+  .logo {
+    left: 28px;
+    bottom: 10px;
+  }
+  .dior img {
+    position: relative;
+    left: 5px;
+    top: 25px;
+    height: 199px;
+    width: 230px;
+  }
+  h3 {
+    font-size: 35px;
+    margin-top: 20px;
+    margin-bottom: 26px;
+  }
+  .description {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  .price {
+    height: 35px;
+    margin: 7px 0px;
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 600px) {
+  h1 {
+    text-align: center;
+  }
+  .container {
+    height: 100vh;
+    width: 100vw;
+  }
+  .box {
+    position: relative;
+    right: 30px;
+    width: 410px;
+  }
+  .cart {
+    position: relative;
+    left: 353px;
+    top: 19px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    text-align: center;
+  }
+  .container {
+    height: 100vh;
+    width: 100vw;
+  }
+  .box {
+    position: relative;
+    right: 591px;
+    width: 341px;
+  }
+  .cart {
+    position: relative;
+    left: 285px;
+    top: 20px;
+  }
+} */

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .hover {
+        background-color: #000;
+        color: #fff;
+      }
+      .hover.active {
+        background-color: #fff;
+        color: #000;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li onclick="menuClicked(this)" class="hover active">Hover 2</li>
+      <li onclick="menuClicked(this)" class="hover">Hover 3</li>
+      <li onclick="menuClicked(this)" class="hover">Hover 4</li>
+      <li onclick="menuClicked(this)" class="hover">Hover 5</li>
+      <li onclick="menuClicked(this)" class="hover">Hover 1</li>
+    </ul>
+    <script src="index.js"></script>
+  </body>
+</html>

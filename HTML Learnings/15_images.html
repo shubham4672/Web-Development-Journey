@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Images</title>
+  </head>
+  <body>
+    <!-- HTML Images -->
+    <!-- The required src attribute specifies the path (URL) to the image. -->
+    <!-- The required alt attribute provides an alternate text for an image, if the user for some reason cannot view it (because of slow connection, an error in the src attribute, or if the user uses a screen reader). -->
+
+    <!-- Image Maps -->
+    <!-- The HTML <map> tag defines an image map. An image map is an image with clickable areas. The areas are defined with one or more <area> tags. -->
+    <img src="workplace.jpg" alt="Workplace" usemap="#workmap" />
+    <!-- shapes-> rect, circle, poly, default(entire region) -->
+    <map name="workmap">
+      <area
+        shape="rect"
+        coords="34,44,270,350"
+        alt="Computer"
+        href="computer.htm"
+      />
+      <area
+        shape="rect"
+        coords="290,172,333,250"
+        alt="Phone"
+        href="phone.htm"
+      />
+      <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm" />
+    </map>
+
+    <!-- Background Image on a HTML element -->
+    <p
+      style="
+        background-image: url('img_girl.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+      "
+    ></p>
+
+    <!-- Picture Element -->
+    <!-- The HTML <picture> element allows you to display different pictures for different devices or screen sizes. -->
+    <picture>
+      <source media="(min-width: 650px)" srcset="img_food.jpg" />
+      <source media="(min-width: 465px)" srcset="img_car.jpg" />
+      <img src="img_girl.jpg" />
+    </picture>
+  </body>
+</html>

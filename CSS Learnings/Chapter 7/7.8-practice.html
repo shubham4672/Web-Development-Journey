@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chapter 7 Practice Set</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .nav {
+        background-color: #000;
+        color: #fff;
+      }
+      .nav ul {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        list-style-type: none;
+      }
+      .nav ul li {
+        padding: 10px 230px;
+      }
+      .container {
+        display: grid;
+        height: 90vh;
+        grid-template-columns: 25vw 25vw;
+        /* grid-column-gap: 770px; */
+        justify-content: space-evenly;
+        align-content: center;
+      }
+      .div1 {
+        background-color: red;
+        border-radius: 7px;
+        height: 50vh;
+      }
+      .div2 {
+        background-color: blue;
+        border-radius: 7px;
+        height: 50vh;
+      }
+      .div1:hover {
+        scale: 1.1;
+        background-color: rgb(255, 63, 63);
+      }
+      .div2:hover {
+        scale: 1.1;
+        background-color: rgb(61, 61, 255);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nav">
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact Us</li>
+      </ul>
+    </div>
+    <div class="container">
+      <div class="div1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi in a
+        cum dicta, provident deserunt pariatur sapiente reiciendis non animi
+        temporibus maxime labore facere perspiciatis accusantium, delectus
+        voluptatum quibusdam. Necessitatibus?
+      </div>
+      <div class="div2">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa placeat
+        vel inventore officia eos molestiae, et, eius dolorum iste dolor aut
+        dolore laborum rem, earum dolorem voluptates pariatur odio veritatis.
+      </div>
+    </div>
+  </body>
+</html>
